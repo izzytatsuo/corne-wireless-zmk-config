@@ -78,7 +78,7 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB                &hold_tap_150 LEFT_BRACE Q  &hold_tap_150 RIGHT_BRACE M  &hold_tap_150 LEFT_PARENTHESIS N  &hold_tap_150 RIGHT_PARENTHESIS D  &hold_tap_150 NON_US_BACKSLASH F    &hold_tap_150 GRAVE X     &hold_tap_150 SEMICOLON Q   &hold_tap_150 COLON U  &hold_tap_150 LESS_THAN Y   &hold_tap_150 GREATER_THAN GREATER_THAN  &kp BSPC
+&kp TAB                &hold_tap_150 LEFT_BRACE Q  &hold_tap_150 RIGHT_BRACE M  &hold_tap_150 LEFT_PARENTHESIS N  &hold_tap_150 RIGHT_PARENTHESIS D  &hold_tap_150 NON_US_BACKSLASH F    &hold_tap_150 GRAVE X     &hold_tap_150 SEMICOLON Q   &hold_tap_150 COLON U  &hold_tap_150 LESS_THAN Y   &hold_tap_150 GREATER_THAN GREATER_THAN  &trans
 &hold_tap_150 TAB TAB  &hold_tap_150 NUMBER_1 H    &hold_tap_150 NUMBER_2 S     &hold_tap_150 NUMBER_3 R          &hold_tap_150 NUMBER_4 T           &hold_tap_150 N5 G                  &hold_tap_150 NUMBER_6 Z  &hold_tap_150 N7 E          &hold_tap_150 K A      &hold_tap_150 N9 O          &hold_tap_150 N0 I                       &hold_tap_150 DOUBLE_QUOTES APOS
 &kp LEFT_CONTROL       &layer_tap_150 1 L          &layer_tap_150 2 B           &hold_tap_150 LEFT_BRACKET C      &hold_tap_150 RIGHT_BRACKET P      &hold_tap_150 SLASH V               &hold_tap_150 EQUAL J     &hold_tap_150 UNDERSCORE K  &hold_tap_150 MINUS W  &hold_tap_150 PERIOD COMMA  &hold_tap_150 LC(BACKSPACE) BACKSPACE    &hold_tap_150 LC(DELETE) DEL
                                                                                 &kp LGUI                          &hold_tap_150 ESCAPE ESCAPE        &caps_word_shift LEFT_SHIFT 0       &kp SPACE                 &hold_tap_150 RET RET       &kp RALT
