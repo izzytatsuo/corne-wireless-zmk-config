@@ -68,6 +68,16 @@
         };
     };
 
+    macros {
+        double_mouse: double_mouse {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>, <&macro_press>, <&mmv MOVE_UP>;
+
+            label = "DOUBLE_MOUSE";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -101,7 +111,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans          &trans          &trans        &mmv MOVE_Y(-300)  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans          &mmv MOVE_LEFT  &mmv MOVE_UP  &mmv MOVE_RIGHT    &trans  &trans
 &trans  &trans  &none   &trans  &trans  &trans    &trans          &trans          &trans        &trans             &trans  &trans
-                        &trans  &trans  &trans    &mmv MOVE_DOWN  &trans          &trans
+                        &trans  &trans  &mo 8     &mmv MOVE_DOWN  &trans          &trans
             >;
         };
 
@@ -142,5 +152,14 @@
         extra_2 { status = "reserved"; };
 
         extra_3 { status = "reserved"; };
+
+        mouse_nav_fast {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans          &trans          &trans           &mmv MOVE_Y(-300)  &trans          &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans          &mmv MOVE_LEFT  &mmv MOVE_UP     &mmv MOVE_RIGHT    &msc SCRL_UP    &trans
+&trans  &trans  &none   &trans  &trans  &trans    &trans          &msc SCRL_LEFT  &msc SCRL_RIGHT  &trans             &msc SCRL_DOWN  &trans
+                        &trans  &trans  &none     &mmv MOVE_DOWN  &trans          &trans
+            >;
+        };
     };
 };
