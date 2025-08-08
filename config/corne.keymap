@@ -98,9 +98,9 @@
 
         mouse_nav {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans          &trans          &trans        &trans           &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans          &mmv MOVE_LEFT  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans  &trans
-&trans  &trans  &none   &trans  &trans  &trans    &trans          &trans          &trans        &trans           &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans          &trans          &trans        &mmv MOVE_Y(-300)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans          &mmv MOVE_LEFT  &mmv MOVE_UP  &mmv MOVE_RIGHT    &trans  &trans
+&trans  &trans  &none   &trans  &trans  &trans    &trans          &trans          &trans        &trans             &trans  &trans
                         &trans  &trans  &trans    &mmv MOVE_DOWN  &trans          &trans
             >;
         };
