@@ -5,6 +5,7 @@
  */
 
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1500  // default: 600
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 20
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
@@ -108,7 +109,7 @@
 
         mouse_nav {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans          &trans          &trans        &mmv MOVE_Y(-300)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans          &trans          &trans        &mmv MOVE_Y(-1000)  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans          &mmv MOVE_LEFT  &mmv MOVE_UP  &mmv MOVE_RIGHT    &trans  &trans
 &trans  &trans  &none   &trans  &trans  &trans    &trans          &trans          &trans        &trans             &trans  &trans
                         &trans  &trans  &mo 8     &mmv MOVE_DOWN  &trans          &trans
