@@ -109,9 +109,9 @@
 
         mouse_nav {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans            &trans             &trans             &mmv MOVE_Y(-300)  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans            &mmv MOVE_X(-100)  &mmv MOVE_Y(-100)  &mmv MOVE_X(100)   &trans  &msc MOVE_Y(-20)
-&trans  &trans  &none   &trans  &trans  &trans    &trans            &trans             &trans             &trans             &trans  &msc MOVE_Y(20)
+&trans  &trans  &trans  &trans  &trans  &trans    &trans            &trans             &trans             &mmv MOVE_Y(-300)  &msc SCRL_UP      &msc MOVE_Y(10)
+&trans  &trans  &trans  &trans  &trans  &trans    &trans            &mmv MOVE_X(-100)  &mmv MOVE_Y(-100)  &mmv MOVE_X(100)   &msc SCRL_LEFT    &msc MOVE_Y(-20)
+&trans  &trans  &none   &trans  &trans  &trans    &trans            &trans             &trans             &trans             &msc MOVE_X(-15)  &msc MOVE_Y(20)
                         &trans  &trans  &mo 8     &mmv MOVE_Y(100)  &trans             &trans
             >;
         };
