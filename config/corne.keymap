@@ -120,10 +120,10 @@
 
         mouse_nav {
             bindings = <
-&trans  &trans  &trans  &trans                  &trans  &trans    &trans            &trans             &trans             &mmv MOVE_Y(-300)  &msc SCRL_UP    &msc MOVE_Y(10)
-&trans  &trans  &trans  &trans                  &trans  &trans    &trans            &mmv MOVE_X(-600)  &mmv MOVE_Y(-600)  &mmv MOVE_X(600)   &msc SCRL_UP    &msc MOVE_Y(20)
-&trans  &trans  &none   &layer_tap_150 8 LCTRL  &trans  &trans    &trans            &trans             &msc SCRL_LEFT     &msc SCRL_RIGHT    &msc SCRL_DOWN  &msc MOVE_Y(-20)
-                        &trans                  &trans  &mo 8     &mmv MOVE_Y(600)  &trans             &trans
+&trans  &trans  &trans  &trans                  &trans  &trans    &trans            &trans  &trans             &mmv MOVE_Y(-300)  &msc SCRL_UP    &msc MOVE_Y(10)
+&trans  &trans  &trans  &trans                  &trans  &trans    &trans            &none   &mmv MOVE_Y(-600)  &mmv MOVE_X(600)   &msc SCRL_UP    &msc MOVE_Y(20)
+&trans  &trans  &none   &layer_tap_150 8 LCTRL  &trans  &trans    &trans            &trans  &msc SCRL_LEFT     &msc SCRL_RIGHT    &msc SCRL_DOWN  &msc MOVE_Y(-20)
+                        &trans                  &trans  &mo 8     &mmv MOVE_Y(600)  &trans  &trans
             >;
         };
 
